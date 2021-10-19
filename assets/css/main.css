@@ -2739,3 +2739,9 @@ h3#about-text {
 		font-weight: 400;
 		font-size: 1.8em;
 	}
+	.two-one {
+    background-image: url(../../images/behance-cover.jpg)!important;
+}
+#behance-text{
+	color:white;
+}
