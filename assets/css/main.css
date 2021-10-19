@@ -138,7 +138,7 @@ input, select, textarea {
 
 		
 /* JUMP */
-h1 {
+#welcome{
   cursor: default;
   top: 0;
   left: 0;
@@ -151,7 +151,7 @@ h1 {
   text-align: center;
 }
 
-h1 span {
+#welcome span {
   position: relative;
   top: 20px;
   display: inline-block;
@@ -163,55 +163,55 @@ h1 span {
     0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
 }
 
-h1 span:nth-child(2) {
+#welcome span:nth-child(2) {
   -webkit-animation-delay: 0.1s;
 }
 
-h1 span:nth-child(3) {
+#welcome span:nth-child(3) {
   -webkit-animation-delay: 0.2s;
 }
 
-h1 span:nth-child(4) {
+#welcome span:nth-child(4) {
   -webkit-animation-delay: 0.3s;
 }
 
-h1 span:nth-child(5) {
+#welcome span:nth-child(5) {
   -webkit-animation-delay: 0.4s;
 }
 
-h1 span:nth-child(6) {
+#welcome span:nth-child(6) {
   -webkit-animation-delay: 0.5s;
 }
 
-h1 span:nth-child(7) {
+#welcome span:nth-child(7) {
   -webkit-animation-delay: 0.6s;
 }
 
-h1 span:nth-child(8) {
+#welcome span:nth-child(8) {
   -webkit-animation-delay: 0.2s;
 }
 
-h1 span:nth-child(9) {
+#welcome span:nth-child(9) {
   -webkit-animation-delay: 0.3s;
 }
 
-h1 span:nth-child(10) {
+#welcome span:nth-child(10) {
   -webkit-animation-delay: 0.4s;
 }
 
-h1 span:nth-child(11) {
+#welcome span:nth-child(11) {
   -webkit-animation-delay: 0.5s;
 }
 
-h1 span:nth-child(12) {
+#welcome span:nth-child(12) {
   -webkit-animation-delay: 0.6s;
 }
 
-h1 span:nth-child(13) {
+#welcome span:nth-child(13) {
   -webkit-animation-delay: 0.7s;
 }
 
-h1 span:nth-child(14) {
+#welcome span:nth-child(14) {
   -webkit-animation-delay: 0.8s;
 }
 
@@ -227,6 +227,7 @@ h1 span:nth-child(14) {
 
 h3#about-text {
     margin-bottom: 30px;
+    font-size: 31px;
 }
 			h2.alt strong {
 				color: #666;
@@ -237,7 +238,7 @@ h3#about-text {
 	}
 
 	header {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 		header > p {
@@ -2042,7 +2043,7 @@ h3#about-text {
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #f2594e;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -2060,7 +2061,7 @@ h3#about-text {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			background-color: #f00;
 		}
 
 		input[type="button"]:active,
