@@ -2727,3 +2727,15 @@ h3#about-text {
 				}
 
 	}
+
+	#about-image img{
+		    width: 300px;
+	}
+	.spacer{
+		height: 80px;
+	}
+
+	header>h2{
+		font-weight: 400;
+		font-size: 1.8em;
+	}
