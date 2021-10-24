@@ -1863,6 +1863,7 @@ h3#about-text {
 		.image.fit {
 			display: block;
 			width: 100%;
+			transition: transform 400ms ease-out;
 		}
 
 		.image.featured {
@@ -2744,4 +2745,7 @@ h3#about-text {
 }
 #behance-text{
 	color:white;
+}
+a.image.fit:hover{
+transform: scale(1.15);
 }
